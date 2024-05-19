@@ -3,3 +3,99 @@
 	margin: 0;
 	box-sizing: border-box;
 }
+
+@font-face {
+	src: url(../fonts/Figtree-VariableFont_wght.ttf);
+	font-family: Figtree;
+}
+
+body {
+	background-color: hsl(47, 88%, 63%);
+}
+
+.main-container {
+	font-family: Figtree;
+	font-size: 16px;
+	width: 300px;
+	padding: 15px;
+	background-color: hsl(0, 0%, 100%);
+	border: 1px solid hsl(0, 0%, 7%);
+	border-radius: 10px;
+	/* box-shadow: ; */
+}
+
+.card-hero-image {
+	width: 100%;
+	margin: 0 0 10px 0;
+	border-radius: 5px;
+}
+
+.tag {
+	font-weight: 700;
+	padding: 5px 10px;
+	margin: 0 0 10px 0;
+	width: fit-content;
+	background-color: hsl(47, 88%, 63%);
+	border-radius: 5px;
+}
+
+.publish-date {
+	font-size: 12px;
+	font-weight: 500;
+	margin: 0 0 10px 0;
+}
+
+.card-title {
+	margin: 0 0 10px 0;
+}
+
+.description-text {
+	font-size: 12px;
+	line-height: 1rem;
+	color: hsl(0, 0%, 50%);
+	margin: 0 0 20px 0;
+}
+
+.profile-div {
+	display: flex;
+	align-items: center;
+}
+
+.profile-image {
+	width: 20px;
+	margin: 0 5px 0 0;
+}
+
+.profile-text {
+	font-size: 10px;
+	font-weight: 700;
+}
+
+@media (max-width: 475px) {
+	.main-container {
+	}
+
+	.card-hero-image {
+	}
+
+	.tag {
+	}
+
+	.publish-date {
+	}
+
+	.card-title {
+	}
+
+	.description-text {
+	}
+
+	.profile-div {
+	}
+
+	.profile-img {
+	}
+
+	.profile-text {
+	}
+}
