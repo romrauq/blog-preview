@@ -84,29 +84,6 @@ body {
 
 @media (max-width: 475px) {
 	.main-container {
-	}
-
-	.card-hero-image {
-	}
-
-	.tag {
-	}
-
-	.publish-date {
-	}
-
-	.card-title {
-	}
-
-	.description-text {
-	}
-
-	.profile-div {
-	}
-
-	.profile-img {
-	}
-
-	.profile-text {
+		width: 85%;
 	}
 }
